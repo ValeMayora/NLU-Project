@@ -1,0 +1,15 @@
+
+name: nlp_rnn
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio
+      - numpy
+      - pandas
+      - tqdm
+      - matplotlib
+      - pyyaml
+      - tensorboard

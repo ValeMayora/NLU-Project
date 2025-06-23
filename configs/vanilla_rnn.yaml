@@ -1,0 +1,18 @@
+model:
+  vocab_size: null         
+  embedding_dim: 300
+  hidden_dim: 200
+  num_layers: 1
+  dropout: 0.3
+
+training:
+  learning_rate: 0.1       
+  batch_size: 20
+  epochs: 40
+
+data:
+  sequence_length: 30
+
+output:
+  save_path: "./results/"
+  log_path: "./logs/"
