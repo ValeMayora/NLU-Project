@@ -1,0 +1,17 @@
+model:
+  emb_size: 200
+  hid_size: 200
+  use_dropout: false
+  dropout: 0.0
+  num_layers: 2
+
+training:
+  n_epochs: 100
+  clip: 5
+  learning_rate: 1.8
+  patience_init: 5
+  batch_size: 64
+
+output:
+  save_path: "./results/"
+  log_path: "./logs/"
