@@ -1,5 +1,5 @@
 model:
-  vocab_size: null         
+  output_size: null         
   embedding_dim: 300
   hidden_dim: 200
   num_layers: 1
@@ -7,11 +7,10 @@ model:
 
 training:
   learning_rate: 0.1       
-  batch_size: 20
-  epochs: 40
-
-data:
-  sequence_length: 30
+  batch_size: 64
+  n_epochs: 40
+  patience_init: 5
+  clip: 5
 
 output:
   save_path: "./results/"
